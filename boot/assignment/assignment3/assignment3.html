@@ -1,0 +1,137 @@
+<!---------------------------------------------------
+ 
+ +  Module        : Bootstrap
+ +  Assignment No : 3
+ +  Title         : Form 
+  
+------------------------------------------------>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./font awesome/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- title -->
+    <title>Assignment 3</title> 
+    <style>
+        .row
+        {
+            width: 80%; 
+            margin:auto;
+            border: solid transparent;
+            border-radius: 1.2%;
+        }
+        body{
+            padding-bottom: 2%;
+            background-color: gainsboro;
+        }  
+    </style>   
+</head>
+<body>
+    <!---first form---->
+    <div class="row py-4 bg-white my-5">
+        <!-- first part -->
+        <div class="col-md-6">
+            <div class="container" style="margin-left: 3%;">
+                <!-- form starts from here -->
+                <form>
+                    <!-- heading -->
+                    <h2 class="text-body font-weight-bold">Sign Up</h2>
+                    <div class="form-group">
+                        <i class="fa fa-user icon"></i>
+                        <input class="form-control border-top-0 border-left-0 border-right-0 border-dark" type="text" placeholder="Your Name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <i class="fa fa-envelope icon "></i>
+                        <input class="form-control border-top-0 border-left-0 border-right-0 border-dark " type="text" placeholder="Email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <i class="fa fa-lock icon"></i>
+                        <input class="form-control border-top-0 border-left-0 border-right-0 border-dark " type="text" placeholder="Password" name="password">
+                    </div>
+                    <div class="form-group">
+                        <i class="fa fa-lock icon"></i>
+                        <input class="form-control border-top-0 border-left-0 border-right-0 border-dark " type="text" placeholder="Repeat your password" name="password">
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check"> <!-- container -->
+                            <label class="form-check-label pb-4">
+                                <input type="checkbox" class="form-check-input"><span class="text-body">I agree all statements in <b><u>Terms os service</u></b></span>
+                            </label>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary"><b>Register</b></button>
+                </form>       
+            </div>
+        </div>
+        <!-- image along side with form -->
+        <div class="col-md-6 mx-auto">
+            <div class="container-fluid">
+                <figure>
+                    <img src="./images/img1.png" class="img-fluid" ><br>
+                    <figcaption>
+                    <a href="#"><span class="text-body" style="margin-left: 30%;"><u>I am already a member</u></span></a></figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <!---second form---->
+    <div class="row py-4 bg-white">
+        <!-- first part -->
+        <div class="col-md-5 mx-auto">
+            <div class="container ">
+                <!-- form starts from here -->
+                <figure>
+                    <img src="./images/img2.png" class="img-fluid" ><br>
+                    <figcaption>                        
+                        <a href="#"><span class="text-body" style="margin-left: 30%;"><u>Create an account</u></span></a>
+                    </figcaption>
+                </figure>      
+            </div>
+        </div>
+        <!-- image along side with form -->
+        <div class="col-md-6 bg-white">
+            <div class="container-fluid">
+                <form><br>
+                    <!-- heading -->
+                    <h2 class="text-body font-weight-bold">Sign Up</h2>
+                    <div class="form-group">
+                        <i class="fa fa-user icon "></i>
+                        <input class="form-control border-top-0 border-left-0 border-right-0 border-dark " type="text" placeholder="Your Name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <i class="fa fa-lock icon"></i>
+                        <input class="form-control border-top-0 border-left-0 border-right-0 border-dark " type="text" placeholder="Password" name="password">
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check"> <!-- container -->
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input">Remember Me
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-5 my-4">
+                        <button type="button" class="btn btn-primary"><b>Log In</b></button>
+                    </div>
+
+                    <div class="form-group">
+                        <span>Or Log In With </span>
+                        <i class="fa fa-facebook icon bg-primary" style="padding: 2%;margin-right:5px; margin-left:15px; color : white; border-radius:8px;"></i>
+                        <i class="fa fa-twitter icon bg-info" style="padding: 2%; margin-right:5px; color: white; border-radius:8px;"></i>
+                        <i class="fa fa-google icon bg-danger" style="padding: 2%; margin-right:5px; color:white; border-radius:8px;"></i>
+                    </div>               
+                </form>  
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

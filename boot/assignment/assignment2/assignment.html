@@ -1,0 +1,139 @@
+<!-- ---------------------------------------------------------------
++   Module        : Bootstrap
++   Assignment No : 02
++   Requirement   : bootstrap form    
+--------------------------------------------------------------------- -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- title -->
+    <title>Assignment 2</title>    
+</head>
+<body class="container-fluid p-5">
+    <!-- row -->
+    <div class="row py-5 m-2">
+        <!-- left section -->
+        <div class="col-md-6 bg-light py-5">
+            <div class="container">
+            <form>
+                <!-- heading -->
+                <h2 class="text-primary">GENERAL INFORMATION</h2>
+                <!-- grouping -->
+                <div class="form-group">
+                    <!-- dropdown -->
+                    <select class="form-control">
+                        <option selected>Title</option>
+                        <option>Miss</option>
+                        <option>Mrs.</option>
+                        <option>Mr</option>
+                    </select>
+                </div>
+                <div class="form-row mt-3">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                    </div>
+                </div> 
+                <div class="form-group">
+                    <!-- <input type="text" class="form-control" id="inputAddress" placeholder="Position"> -->
+                    <select class="form-control">
+                        <option selected>Position</option>
+                        <option>Software Developer</option>
+                        <option>Front-end Developer</option>
+                        <option>Full-stack Developer</option>
+                        <option>Tester</option>
+                        <option>Data Analayst</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Company">
+                </div>
+                <div class="form-row mt-3">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="firstName" placeholder="Business Arena">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <!-- dropdown -->
+                        <select class="form-control">
+                            <option selected>Employees</option>
+                            <option>one</option>
+                            <option>Two</option>
+                            <option>Three</option>
+                        </select>
+                    </div>
+                </div> 
+            </form>       
+        </div>
+    </div>
+    <!-- right section -->
+        <div class="col-md-6 bg-primary py-5">
+            <div class="container-fluid">
+                <!-- form -->
+                <form>
+                    <!-- heading -->
+                    <h2 class="text-light">Contact Details</h2>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Street+Nr">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Additional Information">
+                    </div>
+                    <div class="form-row mt-3">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="firstName" placeholder="Zip Code">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <!-- dropdown -->
+                        <select id="state" class="form-control">
+                            <option selected>Place</option>
+                            <option>Pune</option>
+                            <option>Mumbai</option>
+                            <option>Bangalore</option>
+                            <option>Hydrabad</option>
+                        </select>
+                    </div>
+                    </div> 
+                    <div class="form-group">
+                        <!-- dropdown -->
+                        <select id="state" class="form-control">
+                            <option selected>Country</option>
+                            <option>India</option>
+                            <option>Australia</option>
+                            <option>USA</option>
+                            <option>Canada</option>
+                        </select>
+                    </div>
+                    <div class="form-row mt-3">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="firstName" placeholder="Code+">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="firstName" placeholder="Phone Number">
+                    </div>
+                    </div> 
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Email ID">
+                    </div>
+                    <div class="form-group">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input"><span class="text-light">I do accept the <b><u>Terms & Conditions</u></b> of your site</span>
+                        </label>
+                    </div>
+                    </div>
+                    <button type="button" class="btn btn-success"><b>Register Badge</b></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
